@@ -12,13 +12,16 @@ body{
     background-size: cover;
     position: relative;
 }
+
 /* area do header */
+
 .container-header{
-align-items: center;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     align-items: center, center;
 }
+
 .divTitulo{
     align-items: center, center;
 }
