@@ -12,7 +12,7 @@ body{
     background-size: cover;
     position: relative;
 }
-
+/* area do header */
 .container-header{
 align-items: center;
     font-family: 'Roboto', sans-serif;
@@ -40,7 +40,7 @@ align-items: center;
     margin-left: 750px;
     margin-bottom: 30px;
 }
-
+/* area do footer */
 .footer{
     background-image: url(../img/image\ 12.png);
     height: 950px;
@@ -50,7 +50,7 @@ align-items: center;
     background-size: cover;
     position: absolute;
 }
-
+/* area sobre nos */
 
 #section-sobre{
     padding: 100px;
