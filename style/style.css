@@ -11,18 +11,20 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
- 
 }
 
-
-
+/* area do header */
 
 .container-header{
-align-items: center;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    align-items: center, center;
 }
 
+.divTitulo{
+    align-items: center, center;
+}
 
 #textoheader{
     display: block;
@@ -38,10 +40,10 @@ align-items: center;
     width: 100vh;
     max-width: 15%;
     display: block;
-
+    margin-left: 750px;
+    margin-bottom: 30px;
 }
-
-
+/* area do footer */
 .footer{
     background-image: url(../img/image\ 12.png);
     height: 950px;
@@ -51,16 +53,7 @@ align-items: center;
     background-size: cover;
     position: absolute;
 }
-
-
-
-
-
-
-
-
-
-
+/* area sobre nos */
 
 #section-sobre{
     padding: 100px;
@@ -71,6 +64,7 @@ align-items: center;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
+    background-size: cover;
 }
 .conteudo-sobre{
     max-width: 35em;
