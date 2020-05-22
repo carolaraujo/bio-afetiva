@@ -73,6 +73,7 @@ img {
 
 .produtos{
     margin: 0 auto;
+
     background-image: url("../img/img-produtos/img-fundo.JPG");
 } 
 
@@ -127,3 +128,6 @@ img {
         justify-content: center;
     }
 }
+
+
+
