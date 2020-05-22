@@ -4,19 +4,32 @@ body{
 }
 
 #section-sobre{
-    padding: 100px;
+    /* padding: 100px; */
+    
 
 }
 .bg-sobre-nos{
-    background-image: url('../img/image\ 1.png');
+    background-image: url('../img/test.png');
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
+    /* background-size: cover; */
 
+    padding-top: 10%;
+    padding-bottom: 10%;
   
 }
+
+@media (max-width: 767.98px) { 
+    .bg-sobre-nos{
+        background-position: top 10% right;
+        background-size: 130%;
+    }
+}
+
 .conteudo-sobre{
-    max-width: 35em;
+    /* max-width: 560px; */
+    text-align: left;
     
 }
 .color-text{
