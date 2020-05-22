@@ -42,7 +42,15 @@ align-items: center;
 }
 
 
-
+.footer{
+    background-image: url(../img/image\ 12.png);
+    height: 950px;
+    width: 100%;
+    max-width:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
 
 
 
