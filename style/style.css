@@ -43,6 +43,28 @@ body{
     margin-left: 750px;
     margin-bottom: 30px;
 }
+
+/* CAROUSEL - TABITA E CLAU */
+.carousel{
+}
+.carousel-container{
+    height: 200px;
+    background-color:rgba(50, 135, 54, 0.08);
+}
+
+.text-carousel{
+    color: #328736;
+    margin: 50px auto 20px auto;
+    font-size: 0.8rem;
+    max-width: 80%;
+    width: 100vw;
+    height: 40rem;
+}
+
+.botao-passar{
+    background-color: rgba(126, 193, 0, 0.1);
+}
+
 /* area do footer */
 .footer{
     background-image: url(../img/image\ 12.png);
@@ -53,6 +75,46 @@ body{
     background-size: cover;
     position: absolute;
 }
+.contato{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.redes{
+    
+}
+
+/* Botões */
+.btn{
+    background-color:rgba(126, 193, 0, 1);
+    cursor: pointer;
+    padding: 0.14rem 0.3rem;
+    font-size: 0.4rem;
+}
+
+.botoes-contato{
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    border-radius: 8em;
+}
+
+.botoes-redes{
+
+}
+
+
+.fab{
+    background-color: green;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
 /* area sobre nos */
 
 #section-sobre{
