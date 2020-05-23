@@ -4,21 +4,85 @@ body{
 }
 
 #section-sobre{
-    padding: 100px;
+    /* padding: 100px; */
+    
 
 }
 .bg-sobre-nos{
-    background-image: url('../img/image\ 1.png');
+    background-image: url('../img/test.png');
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
+    /* background-size: cover; */
 
+    padding-top: 10%;
+    padding-bottom: 10%;
   
 }
+
+@media (max-width: 767.98px) { 
+    .bg-sobre-nos{
+        background-position: top 10% right;
+        background-size: 130%;
+    }
+}
+
 .conteudo-sobre{
-    max-width: 35em;
+    /* max-width: 560px; */
+    text-align: left;
     
 }
 .color-text{
     color: #328736;
+}
+.img-gd1{
+    width: 400px;
+    height: 500px;
+}
+
+.bootstraps{
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 200px;
+}
+
+.boots_1{
+    display: flex;
+    flex-direction: row;
+}
+
+.produtos_container{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.row{
+    flex-wrap: wrap !important;
+    margin-right:0 !important;
+    margin-left:0 !important;
+}
+
+.img_background{
+    max-width: 100vw;
+    width: 100%;
+}
+
+.img_background > img {
+    width: 100%;
+    height: 289px;
+    background-repeat: no-repeat;
+}
+
+.produtos{
+    margin: 0 auto;
+} 
+.footer{
+    padding-bottom: 20px;
 }
