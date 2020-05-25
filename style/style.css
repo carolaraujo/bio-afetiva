@@ -1,129 +1,143 @@
-html{
+/* fonte global do site */
+body {
+
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background: url('../img/Rectangle\ 14.png');
-    height: 100vh;
-    max-width: 100vw;
-    width: 100%;
-    background-position: center center;
+.color-text {
+    color: #328736;
+}
+
+.color-text2 {
+    color: #7EC100;
+}
+
+h2 {
+    color: #328736;
+    text-align: center;
+
+.logo-navbar {
+    max-width: 150px;
+    border-radius: 10%;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.logo-navbar-mobile {
+    max-width: 90px;
+    border-radius: 10%;
+
+}
+
+.bg-image {
+    background-image: url('../img/Rectangle\ 14.png');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    padding-bottom: 13%;
 }
 
-/* area do header */
-
-.container-header{
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
-    align-items: center, center;
+.conteudo-header {
+    margin-top: 10%;
+    margin-bottom: 2%;
 }
 
-.divTitulo{
-    align-items: center, center;
-}
-
-#textoheader{
-    display: block;
+.conteudo-header p {
     text-align: center;
-    color:#7EC100;
-    max-width: 100vw;
-    width: 100%;
-    margin-top: 200px;
-    font-weight: lighter;
+    font-size: 50px;
 }
 
-#logo{
-    width: 100vh;
-    max-width: 15%;
-    display: block;
-    margin-left: 750px;
-    margin-bottom: 30px;
-    /* centraliza na moral */
+.navbar-collapse {
+    margin-top: 35px;
+}
+
+.nav-link{
+    font-size: 25px;
+
+}
+
+.texto-nav {
+    padding-top: 57px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .texto-nav {
+        padding-top: 10px;
+    }
+}
+
+/* whatssap start */
+.botao-whatsapp {}
+
+.botao-whatsapp a {
+    width: 300px;
+    height: 40px;
+    button: 90px;
+    right: 20px;
+    background-color: #7EC100;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 1px 1px 2px #888888;
+    z-index: 1000;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.botao-whatsapp a i {
+    margin-top: 14px; 
+    margin-bottom: 14px;
+}
+
+.botao-whatsapp a i span {
+   font-family: 'Roboto', sans-serif;
 }
 
 
-/* area sobre nos */
-
-#section-sobre{
-    padding: 100px;
-
+/* sobre start */
+#section-sobre {
+    /* padding: 100px; */
 }
-.bg-sobre-nos{
-    background-image: url('../img/image\ 1.png');
+
+.bg-sobre-nos {
+    background-image: url('../img/test.png');
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
     padding-top: 10%;
-    padding-bottom: 10%;  
+    padding-bottom: 10%;
 }
 
-.conteudo-sobre{
-    /* max-width: 560px; */
-    text-align: left;
-    
-}
-.color-text{
-    color: #328736;
-    text-align: center;
+@media (max-width: 767.98px) {
+    .bg-sobre-nos {
+        background-position: top 10% right;
+        background-size: 130%;
+    }
 }
 
-.row{
-    flex-wrap: wrap !important;
-    margin-right:0 !important;
-    margin-left:0 !important;
-}
-/* carol */
-.producao{
+.producao {
     width: 70%;
     margin: 0 auto;
 }
 
-.produtos{
-    margin: 0 auto;
-} 
-
-.icones-producao{
-    display: flex;
-    justify-content: space-around;
+.conteudo-sobre {
+    /* max-width: 560px; */
+    text-align: left;
 }
 
-.card-text{
-    text-align: center;
-    font-size: 11px;
+/* produtos start */
+#products-container img {
+    margin-bottom: 10px;
 }
 
-.text-producao{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.imagem{
-    width: 100%;
-    height: 100%;
-}
-
-.container-img-produtos{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.produtos-grd{
-    width: 80%;
-}
-
-.produtos-pqn{
-    width: 80%;
-}
-/* CAROUSEL - TABITA E CLAU */
+/* depoimentos start */
 .carousel{
 }
+
 .carousel-container{
     height: 200px;
     background-color:rgba(50, 135, 54, 0.08);
@@ -132,111 +146,84 @@ body{
 .text-carousel{
     color: #328736;
     margin: 50px auto 20px auto;
-    font-size: 0.8rem;
+    font-size: 1rem;
     max-width: 80%;
-    width: 100vw;
     height: 40rem;
 }
+
 
 .botao-passar{
     background-color: rgba(126, 193, 0, 0.1);
 }
 
-/* area do footer */
-.footer{
-    background-image: url(../img/image\ 12.png);
-    height: 950px;
+@media (max-width: 720px){
+    .text-carousel{
+        font-size: 0.75rem;
+    }
+}
+
+/* footer */
+.footer {
+    flex-direction: column;
+    align-items: center;;
+    flex-flow: column wrap;
+    justify-content: center;
     width: 100%;
-    max-width:100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-}
-.contato{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    height: 50%;
 }
 
-.redes{
-    
-}
-
-/* Botões */
-.btn{
-    background-color:rgba(126, 193, 0, 1);
+/* botões */
+.btn {
     cursor: pointer;
-    padding: 0.14rem 0.3rem;
-    font-size: 0.4rem;
 }
 
-.botoes-contato{
-    font-weight: bold;
+.botoes{
+    background-color: rgba(126, 193, 0, 1);
     color: white;
-    width: 100px;
-    border-radius: 8em;
+    width:68px;
+    height:68px;
+    line-height:40px;
+    border-radius: 50%;
+    text-align:center;
+    font-size:2rem;
+    margin: 5px 5px 5px 5px;
+    padding: 10px;
 }
 
-.botoes-redes{
-
+.bg-footer{
+    background-image: url(../img/image\ 12.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
 }
 
 
-.fab{
-    background-color: green;
-    color: white;
-}
-
-.copyright{
+.copyright {
+    margin: 30px auto 5px auto;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    color: #328736;
 }
 
-@media (max-width: 767.98px) { 
-    .bg-sobre-nos{
-        background-position: top 10% right;
-        background-size: 130%;
+@media (max-width: 620px){
+    .botoes{
+        width: 50px;
+        height: 50px;
+        line-height: 30px;
+        text-align: center;
+        margin: 2px 4px 2px 4px;
+        padding: 7px;
+        font-size: 1.7rem;
+    }
+
+    .bg-footer{
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .h2{
+        font-size: 1.2rem;
     }
 }
-
-@media(min-width: 768px){
-    .container-img-produtos{
-    flex-direction: row;
-    width: 60%;
-    margin: 0 auto;
-    }
-    .produtos-grd{
-        width: 60%;
-        height: 100vh;
-    }
-    .produtos-pqn{
-        width: 40%;
-        height: 100vh;
-    }
-    .produtos-pqn2{
-        height: 50%;
-        display: flex;
-    }
-}
-
-@media(min-width: 768px){
-    .container-img-produtos{
-    flex-direction: row;
-    width: 60%;
-    margin: 0 auto;
-    }
-    .produtos-grd{
-        width: 60%;
-        height: 100vh;
-    }
-    .produtos-pqn{
-        width: 40%;
-        height: 100vh;
-    }
-    .produtos-pqn2{
-        height: 50%;
-        display: flex;
-    }
-}
-
-
-
