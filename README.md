@@ -1,4 +1,4 @@
-# bio-afetiva
+# Bioafeiva
 Construção do site da marca de cosméticos naturais e inteligentes Bioafetiva na semana de projetos com clientes reais na Turma 09 por @reprograma.
 Foi desenvolvido em parceria com @natalialuizas @Odaraya, @patriciagborges, @tabita-barbosa e @MClaudia-Correia
 
