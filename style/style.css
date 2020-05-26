@@ -1,3 +1,4 @@
+
 /* fonte global do site start */
 body {
 
@@ -16,9 +17,7 @@ h2 {
     color: #328736;
     text-align: center;
 }
-/* fonte global do site end */
 
-/* header start */
 .logo-navbar {
     max-width: 150px;
     border-radius: 10%;
@@ -46,6 +45,7 @@ h2 {
 .conteudo-header p {
     text-align: center;
     font-size: 50px;
+
 }
 
 .navbar-collapse {
@@ -70,24 +70,34 @@ h2 {
 /* header end*/
 
 /* sobre start */
+
 .bg-sobre-nos {
     background-image: url('../img/test.png');
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
     padding-top: 10%;
+
     padding-bottom: 5%;
 }
+
 @media (max-width: 767.98px) {
     .bg-sobre-nos {
         background-position: top 10% right;
         background-size: 130%;
     }
 }
+
+.producao {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .conteudo-sobre {
     /* max-width: 560px; */
     text-align: left;
 }
+
 /* sobre end */
 
 /* produção start */
@@ -146,14 +156,13 @@ h2 {
     border: 1px solid rgba(255,255,255,0.95); */
     font-weight: 300;
     font-size: 20px;
-    padding-left: 10%;
-   
+    padding-left: 10%; 
 }
+
 .infos-lightbox{
     color: #328736;
-
-
 }
+
 .btn-secondary{
     background-color: #328736;
 }
