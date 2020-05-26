@@ -1,5 +1,7 @@
-/* fonte global do site */
+
+/* fonte global do site start */
 body {
+
     font-family: 'Roboto', sans-serif;
 }
 
@@ -43,6 +45,7 @@ h2 {
 .conteudo-header p {
     text-align: center;
     font-size: 50px;
+
 }
 
 .navbar-collapse {
@@ -51,7 +54,6 @@ h2 {
 
 .nav-link{
     font-size: 25px;
-
 }
 
 .texto-nav {
@@ -65,34 +67,7 @@ h2 {
         padding-top: 10px;
     }
 }
-
-/* whatssap start */
-
-.botao-whatsapp a {
-    width: 300px;
-    height: 40px;
-    right: 20px;
-    background-color: #7EC100;
-    color: #ffffff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 15px;
-    box-shadow: 1px 1px 2px #888888;
-    z-index: 1000;
-    padding: 10px 25px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.botao-whatsapp a i {
-    margin-top: 14px; 
-    margin-bottom: 14px;
-}
-
-.botao-whatsapp a i span {
-   font-family: 'Roboto', sans-serif;
-}
-
+/* header end*/
 
 /* sobre start */
 
@@ -102,7 +77,8 @@ h2 {
     background-repeat: no-repeat;
     position: relative;
     padding-top: 10%;
-    padding-bottom: 10%;
+
+    padding-bottom: 5%;
 }
 
 @media (max-width: 767.98px) {
@@ -122,100 +98,226 @@ h2 {
     text-align: left;
 }
 
+/* sobre end */
+
+/* produção start */
+.producao {
+    width: 70%;
+    margin: 0 auto;
+}
+.icones-producao{
+    display: flex;
+    justify-content: space-around;
+}
+/* produção end */
+
 /* produtos start */
+.nossos-produtos{
+    padding-top: 2%;
+}
+.nossos-produtos h2{
+    padding-bottom: 2%;
+}
 #products-container img {
     margin-bottom: 10px;
 }
 
+
+
+.descricao-produtos span{
+    color: #328736;
+   position: absolute;
+   bottom: 5%;
+   padding: 1%;
+   background: rgba(255,255,255, 0.9);
+    border: 1px solid rgba(255,255,255,0.95);
+   
+
+}
+
+#exampleModalLongTitle{
+    color: #328736;
+}
+.btn-produtos{
+    background-color: #328736;
+    border: #328736;
+}
+.btn-produtos:hover{
+    background-color:#7EC100
+}
+.descricao-produtos {
+    color: #328736;
+    width: 90%;
+   
+    bottom: 5%;
+    left: 5%;
+    padding: 1%;
+    /* background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.95); */
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10%; 
+}
+
+.infos-lightbox{
+    color: #328736;
+}
+
+.btn-secondary{
+    background-color: #328736;
+}
+
 /* depoimentos start */
-
-
-.carousel-container{
-    height: 200px;
-    background-color:rgba(50, 135, 54, 0.08);
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
 }
 
-.text-carousel{
-    color: #328736;
-    margin: 50px auto 20px auto;
-    font-size: 1rem;
-    max-width: 80%;
-    height: 40rem;
+.carousel-inner {
+    min-height: 200px;
 }
-
-
-.botao-passar{
-    background-color: rgba(126, 193, 0, 0.1);
+@media (max-width: 991.98px){
+    .carousel-inner {
+        min-height: 250px;
+    }
 }
-
-@media (max-width: 720px){
-    .text-carousel{
-        font-size: 0.75rem;
+@media (max-width: 575.98px){
+    .carousel-inner {
+       min-height: 400px;
     }
 }
 
-/* footer */
-.footer {
-    flex-direction: column;
-    align-items: center;;
-    flex-flow: column wrap;
-    justify-content: center;
-    width: 100%;
-    height: 50%;
+.depoimento-item {
+    color: #328736;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
 }
 
-/* botões */
-.btn {
-    cursor: pointer;
+.depoimento-item p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
-.botoes{
-    background-color: rgba(126, 193, 0, 1);
-    color: white;
-    width:68px;
-    height:68px;
-    line-height:40px;
-    border-radius: 50%;
-    text-align:center;
-    font-size:2rem;
-    margin: 5px 5px 5px 5px;
-    padding: 10px;
+.depoimento-item .cliente-nome {
+    float: right;
 }
 
-.bg-footer{
-    background-image: url(../img/image\ 12.png);
-    background-position: bottom center;
+.strong-quote {
+    font-weight: bold;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 150px !important;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: #328736;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: #328736;
+}
+/* depoimentos end */
+
+/* contato/footer start*/
+.bg-contato {
+    background-image: url("../img/image\ 12.png");
     background-repeat: no-repeat;
-    position: relative;
+    background-position: center center;
     background-size: cover;
+    background-position-y: bottom;
+    padding-top: 6%;
+    padding-bottom: 3%;
+
 }
 
+.botao-email{
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
 
-.copyright {
-    margin: 30px auto 5px auto;
+.botao-email a {
+    background-color: #7EC100;
+    color: #ffffff;
+    border-radius: 50px;
     text-align: center;
-    font-size: 0.9rem;
-    color: #328736;
+    font-size: 15px;
+    box-shadow: 1px 1px 2px #888888;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.botao-email a:hover {
+    color:  #328736;
 }
 
-@media (max-width: 620px){
-    .botoes{
-        width: 50px;
-        height: 50px;
-        line-height: 30px;
-        text-align: center;
-        margin: 2px 4px 2px 4px;
-        padding: 7px;
-        font-size: 1.7rem;
-    }
 
-    .bg-footer{
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-    }
 
-    .h2{
-        font-size: 1.2rem;
-    }
+
+
+.botao-socialmedia a{
+    background-color: #7EC100;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 1px 1px 2px #888888;
+    border-radius: 210px;
+    padding: 10px 15px;
+    
+  
+}
+.botao-socialmedia a:hover{
+    color:  #328736;
+    
+  
+}
+
+.botao-socialmedia a i{
+min-width: 40px;
+
+}
+
+
+.botao-whatsapp a {
+    width: 300px;
+    height: 40px;
+   
+    right: 20px;
+    background-color: #7EC100;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 1px 1px 2px #888888;
+    z-index: 1000;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.botao-whatsapp a:hover {
+    color: #328736
+}
+
+.botao-whatsapp a i {
+    margin-top: 14px; 
+    margin-bottom: 14px;
+}
+
+.botao-whatsapp a i span {
+   font-family: 'Roboto', sans-serif;
+}
+
+.footer h2{
+    padding-bottom: 2%;
+}
+.span-footer {
+    font-size: 16px;
+    margin-top: 64px;
+    margin-bottom: 0px;
 }
